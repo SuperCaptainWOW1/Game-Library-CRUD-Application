@@ -1,0 +1,30 @@
+@media (max-width: 674px) {
+  .form-input-section, .form-image-section {
+    width: 100%;
+  }
+  .form-image-section {
+    text-align: center;
+  }
+  .genre-image {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .card, .alert, .library {
+    width: 95%;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card, .alert, .library {
+    width: 800px;
+  }
+}
+
+@media (min-width: 1092px) {
+  .card, .alert, .library {
+    width: 1000px;
+  }
+}

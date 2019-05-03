@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+input, select, button {
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px;
+  margin-top: 5px;
+  color: #424242;
+  background-color: #fff;
+  transition: border .2s;
+}
+
+button {
+  background-color: #3F51B5;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+label {
+  font-size: 20px;
+  color: #424242;
+}
+
+header {
+  background-color: #3F51B5;
+  text-align: center;
+}
+
+header h1 {
+  padding: 25px 0;
+  color: #fff;
+  font-weight: 500;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 1000px;
+  margin: 40px auto 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.card h2 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.card hr {
+  margin: 10px 0 30px 0;
+  border: none;
+  color: #000;
+  background-color: #bdbdbd;
+  height: 2px;
+  border-radius: 1px;
+}
+
+.form-input-section {
+  width: 50%;
+}
+
+.form-image-section {
+  text-align: right;
+  width: 50%;
+}
+
+.genre-image {
+  width: 256px;
+  height: 256px;
+  margin-right: 50px;
+}
+
+/* Gap between inputs */
+form div {
+  margin-bottom: 10px;
+}
+
+.library {
+  display: grid;
+  column-gap: 40px;
+  row-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.library-item {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: flex-start;
+}
+
+.library-item__desc {
+  width: 100%;
+}
+
+.library-item__desc p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.library-item__desc h3 {
+  text-align: right;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.library-item__image {
+  width: 50%;
+}
+
+.library-item__controls i {
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.delete {
+  color: #DC3545;
+}
+
+.edit {
+  color: #FFC109;
+}
+
+.alert {
+  text-align: center;
+  width: 1000px;
+  margin: 20px auto;
+  padding: 10px 0;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.alert-danger {
+  background-color: #DC3545;
+}
