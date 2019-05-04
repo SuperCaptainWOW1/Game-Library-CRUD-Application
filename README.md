@@ -1,2 +1,2 @@
-# Advanced-ToDo-App
-Classical to do app with some extra features, created with pure javascript, webpack and babel.
+# Game Lbrary App
+Simple CRUD application made with pure JavaScript, Webpack, Babel and JSON Server for fake REST API.

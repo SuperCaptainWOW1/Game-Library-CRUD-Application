@@ -31,60 +31,33 @@
           <div class="form-input-section__form-control">
             <label for="genre">Genre</label><br>
             <select name="genre" id="genre">
-              <option value="choose" selected disabled>Choose</option>
-              <option value="action">Action</option>
-              <option value="simulator">Simulator</option>
-              <option value="rpg">RPG</option>
-              <option value="racing">Racing</option>
-              <option value="shooter">Shooter</option>
-              <option value="adventure">Adventure</option>
-              <option value="strategy">Strategy</option>
-              <option value="sport">Sport</option>
+              <option value="Choose" selected disabled>Choose</option>
+              <option value="Action">Action</option>
+              <option value="Simulator">Simulator</option>
+              <option value="RPG">RPG</option>
+              <option value="Racing">Racing</option>
+              <option value="Shooter">Shooter</option>
+              <option value="Adventure">Adventure</option>
+              <option value="Strategy">Strategy</option>
+              <option value="Sport">Sport</option>
             </select>
           </div>
           <div class="form-input-section__form-control">
             <label for="user">User</label><br>
-            <input type="text" id="user" maxlength="14" placeholder="Enter your username">
+            <input type="text" id="user" placeholder="Enter your username">
           </div>
         </div>
-        <!-- Delete -->
         <div class="form-image-section">
           <img src="assets/img/choose.png" class="genre-image" alt="">
         </div>
-        <!-- Delete -->
       </form>
+      <input type="hidden" id="id" value="">
       <button id="addBtn">Add Game</button>
+      <button id="clearAllBtn">Clear All</button>
     </div>
   </main>
 
-  <div class="library">
-    <div class="library-item">
-      <div class="library-item__desc">
-        <p>
-          added by:<br><em>vovan</em>
-        </p>
-        <h3>Title</h3>
-      </div>
-      <img class="library-item__image" src="assets/img/adventure.png" alt="">
-      <div class="library-item__controls">
-        <i class="delete fa fa-times"></i>
-        <i class="edit fa fa-edit"></i>
-      </div>
-    </div>
-    <div class="library-item">
-      <div class="library-item__desc">
-        <p>
-          added by:<br><em>vova.maxortov@</em>
-        </p>
-        <h3>Title</h3>
-      </div>
-      <img class="library-item__image" src="assets/img/simulator.png" alt="">
-      <div class="library-item__controls">
-        <i class="delete fa fa-times"></i>
-        <i class="edit fa fa-edit"></i>
-      </div>
-    </div>
-  </div>
+  <div class="library"></div>
 
   <!-- <footer>
     <div class="author">&copy; By Vladimir Makhortov</div>
