@@ -1,8 +1,14 @@
+/**
+ * EasyHTTP Library
+ * Library for making HTTP requests
+ *
+ * @version 3.0.0
+ * @author WOW1
+ * @license MIT
+ *
+ **/
+
 class Http {
-  constructor() {
-
-  }
-
   // Make GET request
   async get(url) {
     const response = await fetch(url);

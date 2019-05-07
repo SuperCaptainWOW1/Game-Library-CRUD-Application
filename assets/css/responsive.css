@@ -11,20 +11,20 @@
 }
 
 @media (max-width: 768px) {
-  .card, .alert, .library {
+  .card, .library {
     width: 95%;
     padding: 10px;
   }
 }
 
 @media (min-width: 768px) {
-  .card, .alert, .library {
+  .card, .library {
     width: 800px;
   }
 }
 
 @media (min-width: 1092px) {
-  .card, .alert, .library {
+  .card, .library {
     width: 1000px;
   }
 }
